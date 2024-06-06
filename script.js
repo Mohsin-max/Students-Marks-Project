@@ -4,9 +4,6 @@ let computer = Number(prompt("Your Computer Marks"));
 let biology = Number(prompt("Your Biology Marks"));
 let physics = Number(prompt("Your Physics Marks"));
 
-let abc = "hello";
-
-console.log(abc);
 
 document.querySelector(".eng-marks").innerHTML = english;
 document.querySelector(".sci-marks").innerHTML = science;
@@ -34,3 +31,10 @@ if(percentage >= 25){
     document.querySelector(".pass-fail-text").innerHTML = "YOU'RE FAIL";
     document.querySelector(".pass-fail-text").style.color = "red";
 }
+
+function add (a,b) {
+    
+    return a + b;
+}
+
+console.log(add(5,5));

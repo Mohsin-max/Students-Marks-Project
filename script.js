@@ -1,8 +1,8 @@
-// let english = Number(prompt("Your English Marks"));
-// let science = Number(prompt("Your Science Marks"));
-// let computer = Number(prompt("Your Computer Marks"));
-// let biology = Number(prompt("Your Biology Marks"));
-// let physics = Number(prompt("Your Physics Marks"));
+let english = Number(prompt("Your English Marks"));
+let science = Number(prompt("Your Science Marks"));
+let computer = Number(prompt("Your Computer Marks"));
+let biology = Number(prompt("Your Biology Marks"));
+let physics = Number(prompt("Your Physics Marks"));
 
 
 document.querySelector(".eng-marks").innerHTML = english;
